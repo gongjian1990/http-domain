@@ -51,4 +51,6 @@ public class UserInfo {
 
     private Integer gender;
 
+    private String unionid;
+
 }
