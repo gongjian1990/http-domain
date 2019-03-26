@@ -51,4 +51,5 @@ public class UserInfo {
 
     private Integer gender;
 
+
 }
