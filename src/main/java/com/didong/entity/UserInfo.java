@@ -7,7 +7,7 @@ import java.util.Date;
 @Data
 public class UserInfo {
 
-    private Integer id;
+    private Long id;
 
     private String userId;
 
