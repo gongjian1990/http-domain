@@ -11,6 +11,7 @@ public class UserInfo {
 
     private String userId;
 
+
     private Integer age;
 
     private String nickName;
