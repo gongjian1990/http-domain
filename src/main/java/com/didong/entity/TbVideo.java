@@ -14,7 +14,7 @@ import java.util.Date;
  * @since 2019-03-30
  */
 @Data
-public class TbVedio implements Serializable {
+public class TbVideo implements Serializable {
 
     private static final long serialVersionUID = 1L;
 

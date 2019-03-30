@@ -6,21 +6,21 @@ import java.util.Date;
 
 /**
  * <p>
- * 视频评论表
+ * 用户关注表
  * </p>
  *
  * @author jobob
  * @since 2019-03-30
  */
 @Data
-public class TbVedioComment implements Serializable {
+public class TbVideoReport implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
     /**
      * 主键ID
      */
-    private Long cId;
+    private Long rId;
 
     /**
      * 视频ID
@@ -28,34 +28,29 @@ public class TbVedioComment implements Serializable {
     private Long vedioId;
 
     /**
-     * 拍摄用户ID
+     * 用户ID
      */
     private Long userId;
 
     /**
-     * 评论内容
+     * 视频ID
      */
-    private String commentContent;
+    private Long reportUserId;
 
     /**
-     * 评论时间
+     * 举报原因
+     */
+    private String reportReason;
+
+    /**
+     * 点赞时间
      */
     private Date createTime;
 
     /**
-     * 删除标识
+     * 举报状态
      */
-    private Boolean delFlag;
-
-    /**
-     * 删除时间
-     */
-    private Date delTime;
-
-    /**
-     * 评论用户ID
-     */
-    private Long commentUserId;
+    private Boolean reportStatus;
 
 
 }
