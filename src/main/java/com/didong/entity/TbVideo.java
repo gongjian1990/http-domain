@@ -21,7 +21,7 @@ public class TbVideo implements Serializable {
     /**
      * 主键ID
      */
-    private Long vedioId;
+    private Long videoId;
 
     /**
      * 用户ID
@@ -36,7 +36,7 @@ public class TbVideo implements Serializable {
     /**
      * 视频描述
      */
-    private String vedionDesc;
+    private String videoDesc;
 
     /**
      * 精度
