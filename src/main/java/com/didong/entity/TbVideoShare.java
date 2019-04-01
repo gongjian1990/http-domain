@@ -26,7 +26,7 @@ public class TbVideoShare implements Serializable {
     /**
      * 视频ID
      */
-    private Long vedioId;
+    private Long videoId;
 
     /**
      * 用户ID
