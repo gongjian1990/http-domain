@@ -25,7 +25,7 @@ public class TbChkVideo implements Serializable {
     /**
      * 视频ID
      */
-    private Long vedioId;
+    private Long videoId;
 
     /**
      * 机器审核状态 0:待审核；1：审核通过；2：审核不通过 3:未知
