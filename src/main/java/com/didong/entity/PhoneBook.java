@@ -7,7 +7,7 @@ import java.util.Date;
 @Data
 public class PhoneBook {
 
-    private Integer id;
+    private Long id;
 
     private String udid;
 
