@@ -1,27 +1,31 @@
-package com.didong.entity;
+package com.didong.httpEntity;
 
 import lombok.Data;
-
 import java.io.Serializable;
 import java.util.Date;
 
 /**
  * <p>
- * 个人消息表
+ * 用户关注表
  * </p>
  *
  * @author jobob
  * @since 2019-03-30
  */
 @Data
-public class TbPersonalMsg implements Serializable {
+public class TbVideoReport implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
     /**
      * 主键ID
      */
-    private Long mId;
+    private Long rId;
+
+    /**
+     * 视频ID
+     */
+    private Long videoId;
 
     /**
      * 用户ID
@@ -29,19 +33,24 @@ public class TbPersonalMsg implements Serializable {
     private Long userId;
 
     /**
-     * 消息内容
+     * 视频ID
      */
-    private String msgContent;
+    private Long reportUserId;
 
     /**
-     * 操作人员 
+     * 举报原因
      */
-    private Long operater;
+    private String reportReason;
 
     /**
      * 点赞时间
      */
     private Date createTime;
+
+    /**
+     * 举报状态
+     */
+    private Boolean reportStatus;
 
 
 }

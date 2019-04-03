@@ -1,4 +1,4 @@
-package com.didong.entity;
+package com.didong.httpEntity;
 
 import lombok.Data;
 

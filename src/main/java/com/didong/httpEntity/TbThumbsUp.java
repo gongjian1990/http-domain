@@ -1,4 +1,4 @@
-package com.didong.entity;
+package com.didong.httpEntity;
 
 import lombok.Data;
 import java.io.Serializable;
@@ -6,21 +6,21 @@ import java.util.Date;
 
 /**
  * <p>
- * 视频评论表
+ * 视频点赞表
  * </p>
  *
  * @author jobob
  * @since 2019-03-30
  */
 @Data
-public class TbVideoComment implements Serializable {
+public class TbThumbsUp implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
     /**
      * 主键ID
      */
-    private Long cId;
+    private Long tId;
 
     /**
      * 视频ID
@@ -33,12 +33,12 @@ public class TbVideoComment implements Serializable {
     private Long userId;
 
     /**
-     * 评论内容
+     * 点赞用户ID
      */
-    private String commentContent;
+    private Long thumbUpUserId;
 
     /**
-     * 评论时间
+     * 点赞时间
      */
     private Date createTime;
 
@@ -51,11 +51,6 @@ public class TbVideoComment implements Serializable {
      * 删除时间
      */
     private Date delTime;
-
-    /**
-     * 评论用户ID
-     */
-    private Long commentUserId;
 
 
 }

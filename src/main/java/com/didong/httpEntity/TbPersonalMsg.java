@@ -1,4 +1,4 @@
-package com.didong.entity;
+package com.didong.httpEntity;
 
 import lombok.Data;
 
@@ -7,26 +7,21 @@ import java.util.Date;
 
 /**
  * <p>
- * 视频分享表
+ * 个人消息表
  * </p>
  *
  * @author jobob
  * @since 2019-03-30
  */
 @Data
-public class TbVideoShare implements Serializable {
+public class TbPersonalMsg implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
     /**
      * 主键ID
      */
-    private Long sId;
-
-    /**
-     * 视频ID
-     */
-    private Long videoId;
+    private Long mId;
 
     /**
      * 用户ID
@@ -34,14 +29,14 @@ public class TbVideoShare implements Serializable {
     private Long userId;
 
     /**
-     * 分享人ID
+     * 消息内容
      */
-    private Long shareUserId;
+    private String msgContent;
 
     /**
-     * 分享平台
+     * 操作人员 
      */
-    private String sharePlatform;
+    private Long operater;
 
     /**
      * 点赞时间
