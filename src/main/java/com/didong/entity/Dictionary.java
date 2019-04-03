@@ -5,15 +5,19 @@ import lombok.Data;
 import java.util.Date;
 
 @Data
-public class UserInterest {
+public class Dictionary {
 
     private long id;
 
-    private String userId;
+    private String operator;
+
+    private String optGroup;
 
     private String optCode;
 
-    private String optValue;
+    private String optVale;
+
+    private String optDesc;
 
     private Integer delFlag;
 
