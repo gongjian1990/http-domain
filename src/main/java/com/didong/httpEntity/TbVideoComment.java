@@ -17,45 +17,25 @@ public class TbVideoComment implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    /**
-     * 主键ID
-     */
-    private Long cId;
-
-    /**
-     * 视频ID
-     */
+    /* 主键ID */
+    private long id;
+    /* 视频ID */
     private Long videoId;
-
-    /**
-     * 拍摄用户ID
-     */
+    /* 拍摄用户ID */
     private Long userId;
-
-    /**
-     * 评论内容
-     */
-    private String commentContent;
-
-    /**
-     * 评论时间
-     */
-    private Date createTime;
-
-    /**
-     * 删除标识
-     */
-    private Boolean delFlag;
-
-    /**
-     * 删除时间
-     */
-    private Date delTime;
-
-    /**
-     * 评论用户ID
-     */
+    /* 评论用户ID */
     private Long commentUserId;
-
+    /* 评论内容 */
+    private String commentContent;
+    /* 评论时间 */
+    private Date comment_time;
+    /* 删除标识 */
+    private Boolean delFlag;
+    /* 删除时间 */
+    private Date delTime;
+    /* 创建时间 */
+    private Date createTime;
+    /* 最后更新时间 */
+    private Date lastUpdateTime;
 
 }
