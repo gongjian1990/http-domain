@@ -5,15 +5,15 @@ import lombok.Data;
 import java.util.Date;
 
 @Data
-public class UserInterest {
+public class TbPhoneBook {
 
-    private long id;
+    private Long id;
 
-    private String userId;
+    private String udid;
 
-    private String optCode;
+    private String contactName;
 
-    private String optValue;
+    private String contactPhone;
 
     private Integer delFlag;
 

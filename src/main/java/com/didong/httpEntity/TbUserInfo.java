@@ -5,11 +5,11 @@ import lombok.Data;
 import java.util.Date;
 
 @Data
-public class UserInfo {
+public class TbUserInfo {
 
     private Long id;
 
-    private String userId;
+    private Long userId;
 
     private Integer age;
 
@@ -51,6 +51,6 @@ public class UserInfo {
 
     private Integer gender;
 
-    private String unionid;
+    private String thirdUnionId;
 
 }
