@@ -6,7 +6,7 @@ import java.util.Date;
 
 /**
  * <p>
- * 用户关注表
+ * 用户举报表
  * </p>
  *
  * @author jobob
