@@ -11,7 +11,9 @@ import java.util.Date;
 public class TbVideoReportPhoto {
 
     private Integer id;
-    /*被举报视频*/
+    /*举报图片id*/
+    private long reportPhotoId;
+    /*被举报视频id*/
     private TbVideo videoId;
     /*图片url地址*/
     private String photoUrl;
