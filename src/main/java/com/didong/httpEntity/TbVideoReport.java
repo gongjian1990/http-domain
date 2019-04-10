@@ -3,6 +3,7 @@ package com.didong.httpEntity;
 import lombok.Data;
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
 /**
  * <p>
@@ -35,5 +36,8 @@ public class TbVideoReport implements Serializable {
     private Date createTime;
     /* 最后更新时间 */
     private Date lastUpdateTime;
-
+    /*举报图图片*/
+    private List videoReportPhoto;
+    /*举报类型*/
+    private Integer reportType;
 }
