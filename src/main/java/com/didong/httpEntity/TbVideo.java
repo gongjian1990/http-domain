@@ -18,7 +18,7 @@ public class TbVideo implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    /* 主键ID */
+    /* 主键Id  */
     private long id;
     /* 视频ID */
     private Long videoId;
@@ -56,6 +56,8 @@ public class TbVideo implements Serializable {
     private String thirdVideoId;
     /*视频上下架状态*/
     private int videoUpDownStatus;
+
+
 
 
 }
