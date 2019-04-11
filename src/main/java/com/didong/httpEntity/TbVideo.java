@@ -54,5 +54,7 @@ public class TbVideo implements Serializable {
     private String videoType;
     /*第三方视频Id*/
     private String thirdVideoId;
+    /*视频上下架状态*/
+    private int videoUpDownStatus;
 
 }

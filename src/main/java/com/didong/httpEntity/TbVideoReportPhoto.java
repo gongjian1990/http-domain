@@ -12,13 +12,13 @@ public class TbVideoReportPhoto {
 
     private Integer id;
     /*举报图片id*/
-    private long reportPhotoId;
+    private Long reportPhotoId;
     /*被举报视频id*/
-    private TbVideo videoId;
+    private Long videoId;
     /*图片url地址*/
     private String photoUrl;
     /*举报人*/
-    private TbUserInfo userId;
+    private Long userId;
     /*上传时间*/
     private Date uploadTime;
 

@@ -38,7 +38,7 @@ public class TbVideoReport implements Serializable {
     /* 最后更新时间 */
     private Date lastUpdateTime;
     /*举报图图片*/
-    private List videoReportPhoto;
+    private List<TbVideoReportPhoto> videoReportPhoto;
     /*举报类型*/
-    private Integer reportType;
+    private TbVideoReportType reportType;
 }
