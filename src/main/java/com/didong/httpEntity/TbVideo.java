@@ -19,7 +19,7 @@ public class TbVideo implements Serializable {
     private static final long serialVersionUID = 1L;
 
     /* 主键Id  */
-    private long id;
+    private Long id;
     /* 视频ID */
     private Long videoId;
     /* 用户ID */
