@@ -57,4 +57,5 @@ public class TbVideo implements Serializable {
     /*视频上下架状态*/
     private int videoUpDownStatus;
 
+
 }
